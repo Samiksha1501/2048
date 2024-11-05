@@ -1,0 +1,44 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Poppins', sans-serif;
+   box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(image/2048.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.home{
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home h1{
+    width: 700px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+button{
+    width: 250px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+    background: linear-gradient(#33303b, #f4f4f4);
+    cursor: pointer;
+}
+.home button:hover{
+    transform: translate(5px);
+    transition: 0.2s;
+}
